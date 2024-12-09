@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/sidenav.css">
   </head>
   <body>
     <header>
@@ -91,15 +92,24 @@
       </a>
 
       <nav>
-        <ul class="nav-link-list">
-          <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
-          <li><a class="nav-link" href="./about.html">About</a></li>
-          <li><a class="nav-link" href="./contact.html">Contact</a></li>
-        </ul>
+        <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">
+            <svg width="28" height="17" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#36536B" fill-rule="evenodd">
+                <path d="M0 0h28v3H0zM0 7h28v3H0zM0 14h28v3H0z" />
+              </g>
+            </svg>
+          </a>
+          <ul class="nav-link-list">
+            <li><a class="nav-link" href="./pages/pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="./pages/about.html">About</a></li>
+            <li><a class="nav-link" href="./pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
 
         <a href="#" class="cta-schedule-a-demo">Schedule a Demo</a>
 
-        <a class="menu-burger" href="#">
+        <a id="openBtn" class="menu-burger" href="#">
           <svg width="28" height="17" xmlns="http://www.w3.org/2000/svg">
             <g fill="#36536B" fill-rule="evenodd">
               <path d="M0 0h28v3H0zM0 7h28v3H0zM0 14h28v3H0z" />
@@ -108,5 +118,6 @@
         </a>
       </nav>
     </header>
+    <script src="./scripts/app.js"></script>
   </body>
 </html>

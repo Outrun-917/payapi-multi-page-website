@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+  /* Sidenav menu */
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: right 0.5s ease;
+  }
+
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* Active class */
+  .sidenav.active {
+    right: 0;
+  }
+
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+  }
+}
