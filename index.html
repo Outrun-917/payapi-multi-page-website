@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/sidenav.css">
+    <link rel="stylesheet" href="./css/sidenav.css" />
   </head>
   <body>
     <header>
@@ -101,13 +101,17 @@
             </svg>
           </a>
           <ul class="nav-link-list">
-            <li><a class="nav-link" href="./pages/pricing.html">Pricing</a></li>
-            <li><a class="nav-link" href="./pages/about.html">About</a></li>
-            <li><a class="nav-link" href="./pages/contact.html">Contact</a></li>
+            <li class="nav-link-list-element">
+              <a class="nav-link" href="./pages/pricing.html">Pricing</a>
+            </li>
+            <li class="nav-link-list-element">
+              <a class="nav-link" href="./pages/about.html">About</a>
+            </li>
+            <li class="nav-link-list-element">
+              <a class="nav-link" href="./pages/contact.html">Contact</a>
+            </li>
           </ul>
         </div>
-
-        <a href="#" class="cta-schedule-a-demo">Schedule a Demo</a>
 
         <a id="openBtn" class="menu-burger" href="#">
           <svg width="28" height="17" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +121,36 @@
           </svg>
         </a>
       </nav>
+      <a href="#" class="cta-schedule-a-demo">Schedule a Demo</a>
     </header>
+    <section class="hero">
+      <img
+        class="hero-img"
+        src="./assets/home/desktop/illustration-phone-mockup.svg"
+        alt="A phone with a notification from the PayAPI app stating that the payment has been processed and the total amount deducted from your account"
+      />
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Start building with our APIs for absolutely free.
+        </h1>
+        <form action="" method="post" class="schedule-demo-form">
+          <input
+            class="email-hero"
+            type="email"
+            name="submitted-email"
+            id=""
+            autocomplete="email"
+            placeholder="Enter email address"
+            pattern="+@example\.com"
+            required
+          />
+          <input type="submit" class="cta-hero" value="Schedule a Demo" />
+        </form>
+        <p class="hero-info">
+          Have any questions?<a href="./pages/contact.html"> Contact Us</a>
+        </p>
+      </div>
+    </section>
     <script src="./scripts/app.js"></script>
   </body>
 </html>
