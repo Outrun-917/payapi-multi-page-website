@@ -54,26 +54,22 @@
   margin-bottom: 24px;
 }
 
-.plan-benefits-list {
+.plan-list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.plan-list {
+  padding: 0;
   list-style-type: none;
-  padding-left: 0;
+}
+
+.plan-list-element {
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.plan-benefits-list-element {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-.plan-benefits-list-last-element {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.plan-list-active-element {
+  list-style-image: url(../assets/shared/desktop/icon-check.svg);
 }
 
 .plan-benefit {
