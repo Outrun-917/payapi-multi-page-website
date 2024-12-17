@@ -126,6 +126,10 @@
     margin-top: 72px;
   }
 
+  .plan-price {
+    font-size: 48px;
+  }
+
   .demo-request-section {
     margin-top: 116x;
   }
@@ -149,5 +153,13 @@
   .demo-request-section {
     margin-top: 112px;
     margin-bottom: 96px;
+  }
+
+  .plan-title {
+    font-size: 32px;
+  }
+
+  .plan-price {
+    font-size: 56px;
   }
 }
