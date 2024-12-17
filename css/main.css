@@ -53,7 +53,7 @@ body {
   text-decoration: none;
   font-family: "Public Sans", sans-serif;
   font-weight: 700;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
@@ -348,7 +348,7 @@ body {
 
 footer {
   width: 100%;
-  background-color: #1B262F;
+  background-color: #1b262f;
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -388,7 +388,7 @@ footer {
 }
 
 .footer-page-link {
-  color: #FBFCFE;
+  color: #fbfcfe;
   font-weight: 700;
   text-decoration: none;
   opacity: 0.7;
@@ -406,12 +406,12 @@ footer {
 }
 
 .footer-social-link svg {
-  fill: #FBFCFE;
-  transition: .4s;
+  fill: #fbfcfe;
+  transition: 0.4s;
 }
 
 .footer-social-link svg:hover {
-  fill: #DA6D97;
+  fill: #da6d97;
 }
 
 @media screen and (min-width: 768px) {
@@ -492,6 +492,11 @@ footer {
   #middle-advantage-list-element {
     margin-left: 12px;
     margin-right: 12px;
+  }
+
+  .demo-request-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .demo-request-title {
@@ -690,6 +695,7 @@ footer {
     max-width: 1100px;
     justify-content: space-between;
     margin-top: 96px;
+    margin-bottom: 96px;
   }
 
   .demo-request-title {

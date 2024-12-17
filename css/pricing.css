@@ -8,8 +8,12 @@
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
+}
+
+.pricing-sub-section-wraper {
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-section-title {
@@ -54,6 +58,10 @@
   margin-bottom: 24px;
 }
 
+.plan-second-separator {
+  margin-bottom: 40px;
+}
+
 .plan-list-wrapper {
   display: flex;
   justify-content: center;
@@ -66,25 +74,19 @@
 
 .plan-list-element {
   text-align: left;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.plan-list-last-element {
+  margin-bottom: 0;
 }
 
 .plan-list-active-element {
   list-style-image: url(../assets/shared/desktop/icon-check.svg);
-}
-
-.plan-benefit {
-  color: #36536b;
-  font-family: "Public Sans", sans-serif;
-}
-
-.plan-benefit-disabled {
-  color: #36536b;
-  font-family: "Public Sans", sans-serif;
-  opacity: 0.5;
-}
-
-.plan-benefit-check-img {
-  margin-right: 12px;
+  opacity: 1;
 }
 
 .plan-cta {
@@ -96,4 +98,56 @@
   border-radius: 28px;
   text-decoration: none;
   margin-top: 24px;
+  transition: 0.3s;
+}
+
+.plan-cta:hover {
+  background-color: #36536b;
+  color: #fbfcfe;
+}
+
+@media screen and (min-width: 768px) {
+  .pricing-sub-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pricing-sub-section {
+    width: 32%;
+  }
+
+  .pricing-section-title {
+    font-size: 48px;
+    margin-top: 76px;
+  }
+
+  .pricing-sub-section {
+    margin-top: 72px;
+  }
+
+  .demo-request-section {
+    margin-top: 116x;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pricing-section {
+    text-align: left;
+    width: 75%;
+    max-width: 1100px;
+  }
+
+  .plan-list-wrapper {
+    justify-content: left;
+  }
+
+  .plan-list {
+    padding-left: 20px;
+  }
+
+  .demo-request-section {
+    margin-top: 112px;
+    margin-bottom: 96px;
+  }
 }
