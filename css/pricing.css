@@ -1,0 +1,103 @@
+/* * { */
+/* font-family: "Public Sans", sans-serif; */
+/* font-family: "DM Serif Display", serif; */
+/* background-color: tomato; */
+/* }  */
+
+.pricing-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pricing-section-title {
+  font-size: 32px;
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+.pricing-sub-section {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.plan-title {
+  font-size: 24px;
+  color: #ba4270;
+  font-family: "DM Serif Display", serif;
+  margin-bottom: 12px;
+}
+
+.plan-description {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.plan-price {
+  font-size: 56px;
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+}
+
+.plan-separator {
+  height: 1px;
+  background-color: #36536b;
+  border: none;
+  opacity: 0.25;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.plan-benefits-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-benefits-list-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.plan-benefits-list-last-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-benefit {
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+}
+
+.plan-benefit-disabled {
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  opacity: 0.5;
+}
+
+.plan-benefit-check-img {
+  margin-right: 12px;
+}
+
+.plan-cta {
+  color: #36536b;
+  font-weight: 700;
+  font-family: "Public Sans", sans-serif;
+  border: 1px solid #36536b;
+  padding: 16px 28px;
+  border-radius: 28px;
+  text-decoration: none;
+  margin-top: 24px;
+}
