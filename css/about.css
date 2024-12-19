@@ -1,0 +1,172 @@
+/* * { */
+/* font-family: "Public Sans", sans-serif; */
+/* font-family: "DM Serif Display", serif; */
+/* background-color: tomato; */
+/* }  */
+
+.main-wrapper {
+  text-align: center;
+}
+
+.mission {
+  width: 90%;
+  margin-bottom: 76px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-title {
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 48px;
+}
+
+.mission-article {
+  margin-top: 48px;
+}
+
+.mission-article-title {
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.mission-article-description {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  line-height: 28px;
+}
+
+.team-picture {
+  width: 100%;
+}
+
+.team {
+  margin-top: 48px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.informative-numbers-list {
+  padding: 16px 0 16px 0;
+  border-top: 1px solid rgba(54, 83, 107, 0.25);
+  border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+  list-style-type: none;
+  margin-bottom: 48px;
+}
+
+.number-list-element {
+  margin-bottom: 32px;
+}
+
+.number-list-last-element {
+  margin-bottom: 0;
+}
+
+.number-meaning {
+  color: #36536B;
+  font-family: "Public Sans", sans-serif;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.number {
+  color: #BA4270;
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.team-article {
+  margin-bottom: 48px;
+}
+
+.team-article-title {
+  color: #36536B;
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.team-article-description {
+  color: #6C8294;
+  font-family: "Public Sans", sans-serif;
+  line-height: 28px;
+}
+
+.demo-request-section {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-wrapper {
+    text-align: left;
+  }
+
+  .mission {
+    margin-bottom: 92px;
+  }
+
+  .mission-title {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 76px;
+  }
+
+  .mission-article {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mission-article-title {
+    font-size: 32px;
+    line-height: 40px;
+    width: 30%;
+  }
+
+  .mission-article-description {
+    width: 60%;
+  }
+
+  .mission-article {
+    margin-top: 64px;
+  }
+
+  .team {
+    margin-top: 64px;
+  }
+
+  .informative-numbers-list {
+    display: flex;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mission {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+  }
+
+  .mission-title {
+    text-align: left;
+    font-size: 56px;
+    margin-top: 80px;
+  }
+
+  .mission-article {
+    margin-top: 56px;
+  }
+
+  .mission-article-description {
+    width: 65%;
+  }
+}
